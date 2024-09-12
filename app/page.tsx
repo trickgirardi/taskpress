@@ -10,13 +10,7 @@ export default function Home() {
           <button className='h:text-zinc-400'>Dark Mode</button>
         </div>
       </header>
-      <main className='flex flex-row flex-wrap md:flex-nowrap gap-2 justify-center md:justify-normal bg-zinc-950 h-[80vh] p-2 overflow-y-auto scroll-smooth scrollbar'>
-          <AddTask />
-          <AddTask />
-          <AddTask />
-          <AddTask />
-          <AddTask />
-          <AddTask />
+      <main className='flex flex-row gap-2 justify-center bg-zinc-950 h-[80vh] p-2 overflow-y-auto scroll-smooth scrollbar'>
           <AddTask />
       </main>
       <footer className='flex h-[10vh] items-center justify-center bg-zinc-800'>
